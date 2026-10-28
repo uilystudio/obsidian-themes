@@ -1,0 +1,84 @@
+{
+  "name": "obsidian-cream",
+  "displayName": "Obsidian Themes",
+  "description": "Six premium VS Code themes with expanded syntax highlighting for TypeScript, React, Python, Rust, Go, Java, C/C++, C#, SQL, Lua/Luau, PHP, YAML, Bash and more.",
+  "version": "2.0.3",
+  "publisher": "uilystudio",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "obsidian",
+    "cream",
+    "cherry",
+    "forest",
+    "graphite",
+    "moonstone",
+    "pearl",
+    "themes",
+    "dark",
+    "light",
+    "minimal",
+    "premium",
+    "syntax",
+    "typescript",
+    "react",
+    "python",
+    "rust",
+    "go",
+    "java",
+    "cpp",
+    "sql",
+    "lua",
+    "luau",
+    "php",
+    "yaml",
+    "bash"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Obsidian Cream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-cream-color-theme.json"
+      },
+      {
+        "label": "Obsidian Cherry Velvet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-cherry-velvet-color-theme.json"
+      },
+      {
+        "label": "Obsidian Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-forest-color-theme.json"
+      },
+      {
+        "label": "Obsidian Graphite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-graphite-color-theme.json"
+      },
+      {
+        "label": "Obsidian Moonstone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-moonstone-color-theme.json"
+      },
+      {
+        "label": "Obsidian Pearl",
+        "uiTheme": "vs",
+        "path": "./themes/obsidian-pearl-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uilystudio/obsidian-themes.git"
+  },
+  "homepage": "https://github.com/uilystudio/obsidian-themes#readme",
+  "bugs": {
+    "url": "https://github.com/uilystudio/obsidian-themes/issues"
+  }
+}

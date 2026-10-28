@@ -1,0 +1,10 @@
+$cream: #eecdad;
+@mixin premium($radius: 12px) {
+  border-radius: $radius;
+  background: rgba($cream, 0.12);
+}
+.theme-card {
+  @include premium(16px);
+  color: $cream;
+  &:hover { opacity: 0.85; }
+}

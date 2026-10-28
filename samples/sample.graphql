@@ -1,0 +1,3 @@
+type Theme { id: ID! name: String! enabled: Boolean! }
+query FindTheme($id: ID!) { theme(id: $id) { id name enabled } }
+fragment ThemeFields on Theme { name enabled }

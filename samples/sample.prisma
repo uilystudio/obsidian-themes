@@ -1,0 +1,7 @@
+datasource db { provider = "postgresql" }
+generator client { provider = "prisma-client-js" }
+model Theme {
+  id Int @id @default(autoincrement())
+  name String @unique
+  enabled Boolean @default(true)
+}

@@ -1,0 +1,7 @@
+# TOML
+[theme]
+name = "Obsidian Cream"
+version = "2.0.0"
+enabled = true
+[theme.colors]
+background = "#0C0B0A"
