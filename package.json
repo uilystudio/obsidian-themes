@@ -2,8 +2,9 @@
   "name": "obsidian-cream",
   "displayName": "Obsidian Themes",
   "description": "Six premium VS Code themes with expanded syntax highlighting for TypeScript, React, Python, Rust, Go, Java, C/C++, C#, SQL, Lua/Luau, PHP, YAML, Bash and more.",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "publisher": "uilystudio",
+  "icon": "assets/icon.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.90.0"
