@@ -1,5 +1,9 @@
 # Obsidian Themes
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/uilystudio/obsidian-themes/main/assets/icon.png" alt="Obsidian Themes icon" width="128" height="128" />
+</p>
+
 **Six premium Visual Studio Code themes in one extension.** Designed for comfortable coding with refined palettes, minimal visual noise and carefully balanced syntax highlighting.
 
 ## Theme gallery
@@ -55,4 +59,6 @@ The exact result depends on the TextMate grammar and semantic tokens available f
 2. Press `Ctrl+K`, then `Ctrl+T` to open the theme selector.
 3. Select your preferred Obsidian theme.
 
-**Created by Uily Studio.** MIT License.
+**Created by [Uily Studio](https://uilystudio.com).** · MIT License.
+
+[Report an issue](https://github.com/uilystudio/obsidian-themes/issues)

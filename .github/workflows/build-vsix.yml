@@ -1,0 +1,28 @@
+name: Build VSIX
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'package.json'
+      - 'themes/**'
+      - 'assets/**'
+      - 'README.md'
+      - 'CHANGELOG.md'
+      - '.github/workflows/build-vsix.yml'
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build official VSIX
+        run: npx --yes @vscode/vsce package --no-dependencies -o obsidian-themes-2.0.4.vsix
+      - uses: actions/upload-artifact@v4
+        with:
+          name: obsidian-themes-2.0.4-vsix
+          path: obsidian-themes-2.0.4.vsix
+          if-no-files-found: error

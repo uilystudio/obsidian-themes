@@ -1,10 +1,9 @@
 {
   "name": "obsidian-cream",
   "displayName": "Obsidian Themes",
-  "description": "Six premium VS Code themes with expanded syntax highlighting for TypeScript, React, Python, Rust, Go, Java, C/C++, C#, SQL, Lua/Luau, PHP, YAML, Bash and more.",
+  "description": "Six premium VS Code themes: Cream, Cherry Velvet, Forest, Graphite, Moonstone and Pearl. Minimal UI and refined syntax colors for 40+ languages.",
   "version": "2.0.4",
   "publisher": "uilystudio",
-  "icon": "assets/icon.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.90.0"
@@ -81,5 +80,10 @@
   "homepage": "https://github.com/uilystudio/obsidian-themes#readme",
   "bugs": {
     "url": "https://github.com/uilystudio/obsidian-themes/issues"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#0C0B0A",
+    "theme": "dark"
   }
 }

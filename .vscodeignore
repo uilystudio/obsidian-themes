@@ -1,0 +1,11 @@
+# Only ship the extension: not docs for contributors or build tools.
+.github/**
+.vscode/**
+samples/**
+scripts/**
+.gitignore
+BUILD-MARKETPLACE.cmd
+INSTRUKCJA-PUBLIKACJI-PL.md
+.vscodeignore
+*.vsix
+*.zip

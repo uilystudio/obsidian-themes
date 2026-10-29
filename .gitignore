@@ -1,0 +1,17 @@
+# Dependencies and local files
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode-test/
+
+# Distributable packages are built separately
+*.vsix
+*.zip
+
+# Python local caches
+__pycache__/
+*.pyc

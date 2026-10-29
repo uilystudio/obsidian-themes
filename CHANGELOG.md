@@ -1,3 +1,12 @@
+# Changelog
+
+## 2.0.4 — Icon & Marketplace polish
+
+- Added a new 256 × 256 PNG icon (`assets/icon.png`, under 1 MB).
+- Updated extension metadata, README branding and Marketplace gallery banner.
+- Fixed publishing and validation scripts to use the current version.
+- All six themes and syntax colors remain identical to 2.0.3.
+
 ## 2.0.3 — Screenshot gallery update
 
 - Replaced all six screenshots with fresh, cursor-free captures.
@@ -11,7 +20,6 @@
 - Keeps all 6 theme color JSONs unchanged from 2.0.1.
 - Requires the screenshot files to be uploaded to a public GitHub repository before generating the Marketplace-ready VSIX.
 
-# Changelog
 
 > Repository preparation: validator updated for version 2.0.2; added GitHub publication instructions and source metadata. The six theme files and their colors are unchanged.
 
